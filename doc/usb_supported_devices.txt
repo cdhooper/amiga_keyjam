@@ -1,0 +1,232 @@
+Tested working
+==============
+USB Mouse
+    Kensington Technology Group K64325 Expert Mouse (trackball)
+        ID 047d:1020 Kensington Expert Mouse
+        Four buttons
+    LimeIDE wired Gaming Mouse RGB "3DOptical"
+        ID 1c4f:0034 SiGma Micro XM102K Optical Wheel Mouse
+        https://www.ebay.com/itm/116613382672
+    Logitech B100 wired mouse
+        ID 046d:c077 Logitech, Inc. Mouse
+    Logitech G502 HERO Wired Gaming Mouse
+        ID 046d:c08b G502 HERO Gaming Mouse
+        Multimedia (2x) buttons don't work (control key sticks)
+    Logitech M187 wireless mouse
+        ID 046d:c534 Logitech, Inc. Nano Receiver
+    Logitech M317 wireless mouse through unifying receiver
+        ID 046d:c52b Logitech, Inc. Unifying Receiver
+    Logitech M325 wireless mouse 3-button version through unifying receiver
+        ID 046d:c52b Logitech, Inc. Unifying Receiver
+        Wheel left and right are B3 and B4
+    Logitech M505 wireless mouse through unifying receiver
+        ID 046d:c52b Logitech, Inc. Unifying Receiver
+    Logitech M510 wireless mouse 5-button version through unifying receiver
+        ID 046d:c52b Logitech, Inc. Unifying Receiver
+        Side buttons are B3 and B4
+    Logitech M705 wireless mouse through unifying receiver
+        ID 046d:c52b Logitech, Inc. Unifying Receiver
+    Lukas Remis wireless Tank Mouse (Kickstarter)
+        https://www.kickstarter.com/projects/lukas-remis/tank-mouse-your-new-amiga-mouse
+        ID 248a:8566 Maxxter Wireless Receiver
+        Reports at Telink Wireless Receiver
+    RetroGames THE MOUSE MOD.RG011 USB Mouse
+        ID 1c59:0027 Retro Games LTD: THEMouse
+    Cherry MC 2000 corded optical mouse
+        ID 046a:b092 Cherry: USB Optical Mouse
+
+USB Keyboard
+    Acer Scorpius-M11SFL (wired)
+        Predator RGB Color Gaming Keyboard
+        ID 195d:2047 iOne Internation Co.Ltd. Full Color Gaming Keyboard
+        FN+F7 to FN+F12 drive various mouse button combinations
+    Corsair K55 RGB PRO Wired Gaming Keyboard
+        ID 1b1c:1b3d Corsair Gaming K55 RGB Keyboard
+        Hold Lock + F1 for 5 seconds to force USB boot protocol
+            For newer models, hold S + B keys while powering on
+        Hold Fn + F4 for 5 seconds to factory reset the keyboard
+        By default, this keyboard reports keyboard input using a bitmap of
+            scancodes rather than standard USB boot protocol.
+    Das Keyboard 5Q Soft Tactile RGB Smart Mechanical Keyboard (Kickstarter)
+        ID 24f0.2020 Das Keyboard 5Q RGB Mechanical Keyboard
+            v7.3.253 (latest is 7.4.51)
+    Dell KB2521 keyboard
+        ID 413c:2107 Dell USB Entry Keyboard
+        Up to 4-key rollover
+    Logitech K340 wireless keyboard
+        ID 046d:c52b Logitech, Inc. Unifying Receiver
+        Function key provides power button and other multimedia keys.
+    Logitech K360 wireless keyboard
+        ID 046d:c52b Logitech, Inc. Unifying Receiver
+        Multimedia keys present as USAGE Consumer Control, two 16-bit entries
+            which correspond to one or two Consumer Page codes as the keys
+            are pressed.
+    Logitech K400r wireless keyboard with multi-touch touchpad
+        ID 046d:c52b Logitech, Inc. Unifying Receiver
+        Has PC power button and other multimedia buttons.
+        Touchpad acts as mouse.
+    Logitech K400+ wireless keyboard with multi-touch touchpad
+        ID 046d:c52b Logitech, Inc. Unifying Receiver
+        Touchpad acts as mouse.
+        Fn-ins is PC power button
+    SIIG USB Low Profile Multimedia Keyboard (wired)
+        ID 046e.6000 BTC USB Keyboard
+    WASD Model V3 custom keyboard (wired)
+        ID 0c45:7692 Microdia USB Keyboard
+
+USB Hub Keyboard
+    ***
+    *** BEC firmware needs improvements for USB hotplug
+    ***
+    Dell UD0003-DEL5
+        ID 413c:2011 Dell Computer Corp. Multimedia Pro Keyboard
+        Multimedia keys present as 1-bit USAGEs, which have Consumer
+            Controls defined in the HID report descriptor.
+            224 225 226 227 223 18a 194 192 b5 b6 cd bc 183
+    Das Keyboard 4 Ultimate Blank Wired Cherry MX Blue
+        ID 24f0:0140 Metadot Das Keyboard
+        DASK4ULTMBLU-3G7-r1.2, part number KBA-D4215A-UU-E1-RC
+        Volume knob reports both Volume Up/Down and Track Prev/Next multimedia keys
+    XArmor U9BL-S mechanical keyboard
+        ID 1a40:0101 Terminus Technology Inc. Hub
+        ID 04b4:0101 Cypress Semiconductor Corp. Keyboard/Hub
+        Requires both USB hub connector and PS/2 keyboard connector
+            (through passive adapter).
+        If PS/2 is looped back through onboard USB Hub ports, the
+            HUB shows up, but keyboard appears as 0000.0000, class 0
+        If PS/2 is connected direct to USB port, it shows as 04b4.0101,
+            but class is 0 and product string is blank.
+    Apple wired keyboard A1243
+        ID 05ac:1006 Apple, Inc. Hub in Aluminum Keyboard
+        ID 05ac:024f Apple, Inc. Aluminium Keyboard (ANSI)
+        HUB shows up, but Apple keyboard appears as 0000.0000, class 0
+
+USB Keyboard / Mouse combination
+    Dual PS/2 to USB adapter PCP-BCG4209 (active)
+        ID 13ba:0018 PCPlay Barcode PCP-BCG4209
+        https://www.amazon.com/dp/B075T1LS3V
+    Lantronix SpiderDuo KVM
+        ID 14dd:0002 Peppercon AG: Multidevice
+        Set Host Interface to USB under Keyboard/Mouse tab of Interfaces tab
+        Depending your host OS, "set flag +keyboardswapalt save" may be useful
+    PiKVM v3
+        ID 1d6b:0104 PiKVM: PiKVM Composite Device
+        Depending your host OS, "set flag +keyboardswapalt save" may be useful
+
+PS/2 Mouse (through active PS/2 -> USB adapter)
+    Sony VAIO PCVA-MSPB wired PS/2 mouse
+    V7 MU200 wired PS/2 Mouse
+
+PS/2 Keyboard (through active PS/2 -> USB adapter)
+    Dell SK-8110 wired PS/2 keyboard
+    V7 CKU200US wired PS/2 keyboard
+
+PS/2 Mouse/Keyboard combination (through active PS/2 -> USB adapter)
+    Lantronix SpiderDuo KVM
+        PS/2 keybonad and mouse ports through PCP-BCG4209
+
+USB Gamepad / Joystick
+    Mayflash Arcade Stick F500 Elite
+        ID 054c:0cda Sony Interactive Entertainment Controller
+        ID 20d6:a713 UNIVERSAL ARCADE FIGHTSTICK F500 ELITE
+        ID 2f24:00ae UNIVERSAL ARCADE FIGHTSTICK F500 ELITE
+    Rii Game Controller GP100 (Grey) by teenemo
+        ID 081f:e401 Manta gamepad
+    Hyperkin "Trooper II" Premium Atari 2600 Style Wired USB Joystick M07466
+        ID 2e24:386a Trooper V2
+        As HID Joystick. Top left button is B0 and right is B1,
+            back has B2 and B3, and front has B4 and B5.
+    8Bitdo SN30 Pro USB Wired Gamepad (Grey edition) for Switch / Win / Pi
+        By default, powers up in custom Xbox360 (XUSB) protocol mode.
+        Hold down the Y button when connecting to start in Nintendo mode.
+            ID 045e:028e Microsoft Corp. Xbox360 Controller
+            ID 057e:2009 Nintendo Co., Ltd Switch Pro Controller
+    EasySMX 2.4G Wireless Controller ESM-9013
+        This wireless controller supports five different modes, which allows
+        it to emulate several types of devices:
+            ID 057e:2009 PC USB CONTROLLER 1.07
+            ID 045e:028e Microsoft Corp. Xbox360 Controller
+            ID 057e:2009 Nintendo Co., Ltd Switch Pro Controller
+            ID 2f24:0048 PS3 Controler
+            ID 11c1:9101 ESM-9013
+        Some modes of this controller are now supported:
+            ID 057e:2009 PC USB CONTROLLER 1.07
+            ID 045e:028e Microsoft Corp. Xbox360 Controller
+    RetroGames THE GAMEPAD MOD.RGL010 gamepad controller
+        ID 1c59:0026 Retro Games LTD: THEGamepad
+        Lett button pad acts as mouse
+    Retronic Design Universal Retro Joystick Adapter
+        ID e501:0810 retronicdesign.com Atari C64 Amiga Joystick v3.2
+
+USB Hub
+    USB-C M to 2-port USB-A F Y-Splitter
+        ID 214b:7250 USB2.0 HUB
+        Generic, non-powered hub.
+        Does not work with BTC USB Keyboard 046e:6000, but does with others.
+    4 Port USB 3.0 Expander Slim (generic, non-powered)
+        ID 1a40:0101 USB2.0 HUB
+        4x USB ports in a stick configuration. Generic, non-powered.
+    MACALLY 7-port powered USB hub TRIHUB7
+        ID 05e3:0608 USB2.0 Hub
+        Devices work under this hub. Enumeration retries may be required.
+    Octopus 7-port USB Hub
+        ID 1a40:0101 USB 2.0 Hub
+    8 in 1 USB-C TF SD Audio USB3.0 USB2.0 Hub
+        ID 214b:7250 USB2.0 HUB
+        ID 214b:7250 USB2.0 HUB
+        ID 0020:0b21 Generic: USB Audio
+        ID 1908:0226
+    CyberPower USB CP-H420P USB 2.0 4-Port Hub with Power Adapter
+        ID 0409:0059
+    Plugable USB 2.0 7 Port Hub USB2-HUB-AG7
+        ID 1a40:0201 USB 2.0 Hub [MTT]
+
+USB KVM
+    TESmart USB 3.0 HDMI KVM Switch 4K@60Hz 4 Port KVM
+        ID 1a40:0101 USB 2.0 Hub
+        ID 4348:7048 wch.cn CH545
+        ID 046d:c506 wch.cn: K+M+
+        + whatever USB HID devices are attached to KVM
+        Tested with: ID 046d:c62c Logitech: USB Receiver for wireless keyboard
+
+=========================================================================
+
+Not working
+===========
+USB Hub Keyboard
+    <All tested devices are working>
+
+USB Keyboard
+    Macally MKEYE Multimedia Wired Keyboard for Mac / PC, low profile
+        ID 2222:0016 MacAlly Macally USB Keyboard
+        Repeatedly loops between connect and disconnect
+        USB1 HAL_HCD_Connect
+        USB1.5 Device Connected
+        USB1 ResetPort
+        USB1 HAL_HCD_PortEnabled
+        USB1.5 Device Reset Completed
+        USB1.0 4 CONNECT
+        USB1.0 AllocPipe: 0x00, pipe: 0
+        USB1.0 AllocPipe: 0x80, pipe: 1
+        USB1 HAL_HCD_Disconnect
+        USBH_LL_Disconnect [5]
+        USB1 dropped port enable: hprt0=00041008 HCFG=00000201 HAINT=00000000
+            HCINTx: 0=0000 1=0000 2=0002 3=0002 4=0002 5=0002 6=0002 7=0002 8=0002 9=0002 10=0002 11=0002
+        USB1.0 HAL_HCD_PortDisabled
+        USB1.0 5 DISCONNECT
+        USB1.5 Device disconnected
+
+USB Mouse
+
+USB Gamepad / Joystick
+    NVIDIA Shield P2920 game controller
+        ID 0955:7214 NVIDIA Controller v01.04
+        When plugged in, gets identified as a game controller, but
+        no events come in.
+    Speedlink SL-650212-BKRD Competition Pro Extra USB Joystick
+        ID 0079:181c SPEEDLINK COMPETITION PRO Game Controller for Android
+
+        USB1.5.0 genericinit
+        USB1.0 6 ERROR
+        ERROR: USB1.5 Control error: Device not responding
+        USB1.5 USBH_CtlReq FAIL

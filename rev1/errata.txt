@@ -1,0 +1,28 @@
+The NC pin on the wrong side of the Joy/Mouse connector.
+    The connectors that I have block out the pin on the other side
+
+USB1 ESD protection D4 pin 5 should be connected to V5_USBH1
+    Rework: Float pin 5 or attach to 5V at nearby LED
+
+USB2 ESD protection D5 pin 5 should be connected to V5_USBH2
+    Rework: Float pin 5 or attach to 5V at nearby LED
+
+Keyboard header pins missing labels on silkscreen
+
+Remove keyboard DIN5 header and DB9 headers
+
+Add 2x2 F NP keyboard header
+
+Change Status LED to Yellow, same as Keyboard LED
+
+Change Power LED to White
+
+Leave Port LEDs Green, but with part that is in stock at JLCPCB
+
+Test whether 13pF capacitors are necessary
+
+Change C3 and C4 to 47uF to consolidate part types
+
+Need to select the correct button height to match on I built for DaviDZ
+
+Change buttons to C2837518
